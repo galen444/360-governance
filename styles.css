@@ -86,3 +86,10 @@ footer.site-footer a:hover{color:var(--ig-teal);}
   nav.main-nav ul{gap:1rem;flex-wrap:wrap;justify-content:center;}
   header.site-header .container{flex-direction:column;text-align:center;}
 }
+
+.brand-logo-link{display:inline-block;}
+.brand-logo{height:42px;width:auto;display:block;}
+@media (max-width:780px){
+  .brand-logo{height:36px;}
+  header.site-header .container{align-items:center;}
+}
